@@ -11,6 +11,6 @@ inputs:
     default: '.'
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'ghcr.io/sacloud/textlint-action:v0.0.1'
   args:
     - ${{ inputs.working-directory}}
