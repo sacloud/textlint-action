@@ -1,5 +1,9 @@
-name: 'textlint'
+name: 'Textlint Action'
 description: 'lint a document with textlint'
+author: "yamamoto-febc"
+branding:
+  color: 'blue'
+  icon: 'check'
 inputs:
   working-directory:
     description: 'working directory'
