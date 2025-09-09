@@ -1,11 +1,11 @@
-FROM node:lts-alpine3.13
+FROM node:lts-alpine3.21
 MAINTAINER Usacloud Members<sacloud.users@gmail.com>
 
 ENV LC_ALL C.UTF-8
 ENV LANG C.UTF-8
 
 RUN npm install -g --no-cache textlint \
-    textlint-filter-rule-whitelist \
+    textlint-filter-rule-allowlist \
     textlint-filter-rule-comments \
     textlint-rule-common-misspellings \
     textlint-rule-preset-ja-technical-writing \
