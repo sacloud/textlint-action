@@ -1,7 +1,7 @@
 # textlint-action
 
 このリポジトリは、[github.com/sacloud](https://github.com/sacloud) 配下のリポジトリで
-[textlint](https://textlint.org/) の実行を高速化するための GitHub Action です。sacloud 組織内での利用を目的としており、
+[textlint](https://textlint.org/) の実行を高速化するための GitHub Action です。sacloud organization 内での利用を目的としており、
 外部からの利用は想定・サポートしていません。
 
 ## テスト
