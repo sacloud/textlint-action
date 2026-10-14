@@ -1,4 +1,4 @@
-#!/bin/sh -l
+#!/bin/sh
 
 cd $1
 textlint .
